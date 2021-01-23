@@ -83,6 +83,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom
 
+PRODUCT_PACKAGES += \
+    libmm-qcamera \
+    libgui_vendor \
+    libxml2 \
+    CameraGo \
+    vendor.qti.hardware.camera.device@1.0.vendor
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
 
