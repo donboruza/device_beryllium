@@ -231,6 +231,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     BerylliumCarrierConfigOverlay \
+    BerylliumFaceUnlockServiceOverlay \
     BerylliumFrameworksOverlay \
     BerylliumNoCutoutOverlay \
     BerylliumSettingsOverlay \
