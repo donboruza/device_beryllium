@@ -406,7 +406,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/xiaomi \
     vendor/qcom/opensource/usb/etc
 
 # Speed profile services and wifi-service to reduce RAM and storage.

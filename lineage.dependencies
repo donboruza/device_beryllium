@@ -6,11 +6,6 @@
     "branch": "thirteen"
    },
    {
-    "remote": "github"
-    "repository": "android_hardware_xiaomi",
-    "target_path": "hardware/xiaomi"
-   },
-   {
     "remote": "github",
     "repository": "Painkiller3/kernel_xiaomi_sdm845",
     "target_path": "kernel/xiaomi/sdm845",
