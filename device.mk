@@ -466,3 +466,8 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     debug.sf.enable_hwc_vds=1 \
     persist.debug.wfd.enable=1 \
     persist.sys.wfd.virtual=0
+
+# Lily Experience
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
+>>>>>>> 2c31ca2 (Enable google LILY_EXPERIENCE feature)
