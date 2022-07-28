@@ -50,6 +50,9 @@ sdm.debug.disable_inline_rotator_secure=1
 # IMS
 persist.vendor.ims.disableUserAgent=0
 
+# IORap
+ro.iorapd.enable=false
+
 # Media
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
