@@ -91,6 +91,10 @@ PRODUCT_PACKAGES += \
     privapp-permissions-camera-go.xml \
     vendor.qti.hardware.camera.device@1.0.vendor
 
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.camera.privapp.list=com.google.android.apps.cameralite \
+    persist.camera.privapp.list=com.google.android.apps.cameralite
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
 
