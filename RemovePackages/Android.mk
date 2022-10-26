@@ -5,13 +5,25 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
+    AudioFX \
+    Browser2 \
+    Camera2 \
+    DeskClock \
     Drive \
+    Etar \
+    ExactCalculator \
     GoogleTTS \
+    Jelly \
     Maps \
     Music \
-    Photos \
+    PartnerSetupPrebuilt \
     PrebuiltGmail \
     RecorderPrebuilt \
+    Stk \
+    SafetyHubPrebuilt \
+    SecurityHubPrebuilt \
+    SoundAmplifierPrebuilt \
+    PixelBuds \
     TurboPrebuilt \
     Velvet \
     WellbeingPrebuilt \
