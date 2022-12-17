@@ -116,8 +116,8 @@ ART_BUILD_HOST_DEBUG := false
 USE_DEX2OAT_DEBUG := false
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI \
-    Settings \
+    SystemUIGoogle \
+    SettingsGoogle \
     NexusLauncherRelease \
     CustomPixelLauncherOverlay
 
