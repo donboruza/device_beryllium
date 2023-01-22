@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common Awaken stuff.
-$(call inherit-product, vendor/blaze/common_full_phone.mk)
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Other stuff
