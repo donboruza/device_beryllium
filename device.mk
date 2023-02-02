@@ -474,4 +474,3 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 # Lily Experience
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
->>>>>>> 2c31ca2 (Enable google LILY_EXPERIENCE feature)
