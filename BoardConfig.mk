@@ -70,7 +70,7 @@ TARGET_CLANG_PREBUILTS_VERSION := custom
 TARGET_CLANG_WITH_GNU_BINUTILS := true
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 TARGET_KERNEL_CROSS_COMPILE_PREFIX_ARM32 := arm-linux-gnueabi-
-TARGET_KERNEL_CONFIG += vendor/xiaomi/beryllium.config
+TARGET_KERNEL_CONFIG += vendor/xiaomi/beryllium.config vendor/xiaomi/mi845_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 
 # LMKD
