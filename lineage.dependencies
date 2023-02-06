@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "github",
+    "repository": "donboruza/vendor_beryllium",
+    "target_path": "vendor/xiaomi/beryllium",
+    "branch": "thirteen"
+  }
+]

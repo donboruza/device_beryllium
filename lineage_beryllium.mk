@@ -12,13 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common Awaken stuff.
-$(call inherit-product, vendor/awaken/blaze/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 1080
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Other stuff
-BLAZE_BUILD_TYPE := UNOFFICIAL
-BLAZE_MAINTAINER := don.boruza
-WITH_GAPPS := false
+RICE_MAINTAINER := don.boruza
+RICE_CHIPSET := SDM845
+WITH_GMS := false
+RICE_PACKAGE_TYPE := VANILLA AOSP
+SUSHI_BOOTANIMATION := 1080
 TARGET_USE_PIXEL_CHARGER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
