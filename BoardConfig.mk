@@ -69,9 +69,7 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := clang-proton
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/$(TARGET_KERNEL_CLANG_VERSION)
 TARGET_CLANG_WITH_GNU_BINUTILS := true
-KERNEL_LD := LD=ld.lld
-KERNEL_SUPPORTS_LLVM_TOOLS := true
-TARGET_KERNEL_OPTIONAL_LD := true
+TARGET_KERNEL_OPTIONAL_LD := false
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 TARGET_KERNEL_CROSS_COMPILE_PREFIX_ARM32 := arm-linux-gnueabi-
 TARGET_KERNEL_CONFIG += vendor/xiaomi/silvercore_defconfig vendor/xiaomi/beryllium.config
