@@ -18,11 +18,11 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 RICE_MAINTAINER := don.boruza
 RICE_CHIPSET := SDM845
 WITH_GMS := false
-RICE_PACKAGE_TYPE := VANILLA AOSP
 SUSHI_BOOTANIMATION := 1080
 TARGET_USE_PIXEL_CHARGER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_ENABLE_BLUR := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := blaze_beryllium
