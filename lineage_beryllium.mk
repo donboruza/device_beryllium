@@ -25,7 +25,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_ENABLE_BLUR := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := blaze_beryllium
+PRODUCT_NAME := lineage_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
