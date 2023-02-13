@@ -10,31 +10,17 @@ ro.vendor.perf.scroll_opt=true
 # FS-verity
 ro.apk_verity.mode=2
 
-# Code linaro LMKD properties and its AOSP counterparts - refer to perfconfigstore.xml (if available) for tuning purposes
-# kill_heaviest_task_dup
+# LMKD
+ro.lmk.low=1001
+ro.lmk.medium=800
+ro.lmk.critical=0
+ro.lmk.critical_upgrade=false
+ro.lmk.upgrade_pressure=100
+ro.lmk.downgrade_pressure=100
 ro.lmk.kill_heaviest_task=true
-# kill_timeout_ms_dup
 ro.lmk.kill_timeout_ms=100
-# use_new_strategy_dup
-ro.lmk.use_new_strategy=true
-# thrashing_threshold
-ro.lmk.thrashing_limit=30
-# thrashing_decay
-ro.lmk.thrashing_limit_decay=5
-# nstrat_low_swap
-ro.lmk.swap_free_low_percentage=10
-# nstrat_psi_partial_ms
-ro.lmk.psi_partial_stall_ms=70
-# nstrat_psi_complete_ms
-ro.lmk.psi_complete_stall_ms=70
-# CLO lmkd [1] - others were not defined (will use default values from lmkd binary)
-ro.lmk.psi_scrit_complete_stall_ms=75
-ro.lmk.nstrat_wmark_boost_factor=4
-ro.lmk.enable_watermark_check=true
-ro.lmk.enable_userspace_lmk=true
-ro.lmk.super_critical=701
-ro.lmk.direct_reclaim_pressure=45
-ro.lmk.reclaim_scan_threshold=0
+ro.lmk.use_minfree_levels=true
+ro.lmk.log_stats=true
 
 # Shutdown
 ro.build.shutdown_timeout=2
