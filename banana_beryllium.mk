@@ -12,20 +12,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common Awaken stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/banana/config/common.mk)
 
 # Other stuff
-RICE_MAINTAINER := don.boruza
-RICE_CHIPSET := SDM845
-WITH_GMS := false
-SUSHI_BOOTANIMATION := 1080
+BANANA_MAINTAINER := don.boruza
+BANANA_BUILD_TYPE := UNOFFICIAL
+WITH_GAPPS := false
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_PIXEL_CHARGER := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_ENABLE_BLUR := true
+TARGET_EXCLUDE_MATLOG := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_beryllium
+PRODUCT_NAME := banana_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
