@@ -153,6 +153,9 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor \
     android.hardware.drm-service.clearkey
 
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
