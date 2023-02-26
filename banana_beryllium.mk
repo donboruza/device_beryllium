@@ -21,8 +21,7 @@ WITH_GAPPS := false
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_PIXEL_CHARGER := true
-TARGET_ENABLE_BLUR := true
-TARGET_EXCLUDE_MATLOG := true
+TARGET_ENABLE_BLUR := false
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := banana_beryllium
