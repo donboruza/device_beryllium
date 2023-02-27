@@ -68,7 +68,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := clang-proton
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/$(TARGET_KERNEL_CLANG_VERSION)
-TARGET_KERNEL_CONFIG += vendor/xiaomi/silvercore_defconfig vendor/xiaomi/beryllium.config
+TARGET_KERNEL_CONFIG += vendor/xiaomi/lithium_defconfig vendor/xiaomi/beryllium.config
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 KERNEL_LD := LD=ld.lld
 KERNEL_SUPPORTS_LLVM_TOOLS := true
